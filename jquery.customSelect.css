@@ -1,0 +1,59 @@
+/* @group custom select
+========================================================================== */
+.select-wrapper {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	display: block;
+	height: 36px;
+	position: relative;
+}
+
+.select-wrapper select {
+	border: none;
+	cursor: pointer;
+	font-size: 14px;
+	height: 36px;
+	line-height: 36px;
+	margin: 0;
+	outline: none;
+	padding: 0 0 0 10px;
+	position: relative;
+	z-index: 100;
+	width: 100%;
+}
+
+.select-wrapper.select-focus {
+	box-shadow: 0 0 6px rgba(247,159,0,0.4);
+}
+
+.select-wrapper-arrow {
+  background: url(image-path('forms/sprite.png')) no-repeat 0 0;
+  content: '';
+  display: block;
+  height: 11px;
+  position: absolute;
+  right: 9px;
+  top: 13px;
+  width: 7px;
+}
+
+.select-wrapper-text {
+  color: #ccc;
+  display: block;
+  font-size: 14px;
+  left: 10px;
+  line-height: 36px;
+  overflow: hidden;
+  position: absolute;
+  right: 20px;
+  text-align: left;
+  text-overflow: ellipsis;
+  top: 0;
+  white-space: nowrap;
+}
+
+.select-wrapper-filled .select-wrapper-text {
+  color: #000;
+}
+/* @end */

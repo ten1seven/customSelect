@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<!-- META -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+
+		<title>jQuery customSelect Plugin</title>
+
+		<!-- CSS: implied media="all" -->
+		<link rel="stylesheet" href="jquery.customSelect.css">
+
+	</head>
+	<body>
+
+		<p>
+			<select class="select">
+				<option>Value 1</option>
+				<option>Value 2</option>
+				<option>Value 3</option>
+				<option>Value 4</option>
+			</select>
+		</p>
+
+		<!-- Javascript -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="jquery.customSelect.js"></script>
+		<script>
+			$(function() {
+
+				$('.select').customSelect();
+
+			});
+		</script>
+
+	</body>
+</html>
