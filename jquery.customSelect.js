@@ -43,7 +43,7 @@
 
 			// otherwise check to see if it's required and add a *
 			if (val === "") {
-				if (base.$el.data("validate") !== "" || base.$el.data("validate-toggle") !== "") {
+				if (base.$el.data("validate")) {
 					text = text + " " + base.options.required;
 				}
 

@@ -28,7 +28,7 @@
 }
 
 .select-wrapper-arrow {
-  background: url(image-path('forms/sprite.png')) no-repeat 0 0;
+  background: url('arrow.png') no-repeat 0 0;
   content: '';
   display: block;
   height: 11px;
